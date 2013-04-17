@@ -1,0 +1,73 @@
+<h1>Hamster-Dialog</h1>
+<p>Funktionsweise des Hamsters.</p>
+<p align="right"><a href="ExampleBuilder.htm">Zur&uuml;ck</a></p>
+<p>Wird der Hamster-Dialog angezeigt, so werden auf der linken Seite des Dialoges 
+  die drei Grundbauelemente angezeigt. Diese Elemente k&ouml;nnen vom Benutzer 
+  mittels Drag&amp;Drop in die Hamster Welt verschoben werden. <br>
+  Hat der Benutzer den Hamster in die Hamster-Welt platziert, so kann er jetzt 
+  auch seine Blickrichtung &auml;ndern. Um die Blickrichtung zu &auml;ndern ist 
+  ein einfacher Mausklick mit der linken Maustaste auf das Hamster-Element n&ouml;tig.<br>
+  Weiters kann der Benutzer auch Korn- und Mauerelemente in die Hamster-Welt verschieben. 
+  <br>
+</p>
+<h2> Methoden-&Uuml;bersicht </h2>
+<p> Um den Hamster in der Welt bewegen zu k&ouml;nnen, sind eine Reihe von Methoden 
+  notwendig. Die folgende Tabelle soll ihnen als &Uuml;bersicht &uuml;ber die 
+  verf&uuml;gbaren Methoden dienen.</p>
+<table width="75%" border="1" cellspacing="0">
+  <tr> 
+    <td><strong>Methodenname</strong></td>
+    <td><strong>Beschreibung</strong></td>
+  </tr>
+  <tr> 
+    <td>vor()</td>
+    <td>R&uuml;ckt die Figur um einen Platz nach vor</td>
+  </tr>
+  <tr> 
+    <td>linksUm()</td>
+    <td>Dreht die Figur um 90&deg;</td>
+  </tr>
+  <tr> 
+    <td>vorneFrei() </td>
+    <td>&Uuml;berpr&uuml;ft, ob ein weiterer Schritt vorw&auml;rts m&ouml;glich 
+      ist</td>
+  </tr>
+  <tr> 
+    <td>kornDa()</td>
+    <td>&Uuml;berpr&uuml;ft, ob am Platz, wo sich der Hamster befindet, ein Korn 
+      liegt</td>
+  </tr>
+  <tr> 
+    <td>maulLeer()</td>
+    <td>&Uuml;berpr&uuml;ft, ob das Maul des Hamsters leer ist</td>
+  </tr>
+  <tr> 
+    <td>backenLeer()</td>
+    <td>entspricht maulLeer()</td>
+  </tr>
+  <tr> 
+    <td>gib()</td>
+    <td>Der Hamster legt ein Korn ab</td>
+  </tr>
+  <tr> 
+    <td>nimm()</td>
+    <td>Der Hamster nimmt ein Korn auf</td>
+  </tr>
+</table>
+<h2><br>
+  Exceptions</h2>
+<p> W&auml;hrend der Benutzer den Hamster in der Welt umher bewegt, k&ouml;nnen 
+  die verschiedensten Fehlersituationen auftreten. Damit der Benutzer diese Fehler 
+  abfangen und kategorisieren kann, wurden folgende Exceptions f&uuml;r den Hamster 
+  entwickelt.</p>
+<h2>MauerException</h2>
+<p> Eine MauerException wird ausgeworfen, wenn der Benutzer versucht, den Hamster 
+  gegen eine Mauer oder einen Spielfeldrand zu bewegen. </p>
+<h2>KornException</h2>
+<p> Eine KornException wird ausgeworfen, wenn es Probleme mit den K&ouml;rnern 
+  gibt. Es k&ouml;nnen verschiedene Fehler auftreten. Einerseits tritt eine KornException 
+  auf, wenn der Benutzer versucht ein Korn von einem Feld aufzunehmen, auf dem 
+  sich in Wirklichkeit jedoch Keines befindet. <br>
+  Andererseits kann es zu einer KornException kommen, wenn der Benutzer versucht 
+  mehr als neun K&ouml;rner auf einem Feld zu positionieren. </p>
+<p align="right"><a href="ebhauptformular.htm">Zur&uuml;ck</a></p>
