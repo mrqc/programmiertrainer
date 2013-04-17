@@ -1,7 +1,7 @@
 ProgrammierTrainer
 ==================
 
-Grafische Tool um das Programmieren zu erlernen. Ein Blick in die [Präsentation](https://github.com/mrqc/programmiertrainer/blob/master/Was%20ist%20der%20ProgrammierTrainer.ppt) erklärt das ganze!
+Grafische Tool um das Programmieren zu erlernen. Ein Blick in die [Präsentation](http://de.slideshare.net/erharddinhobl/was-ist-der-programmiertrainer) erklärt das ganze!
 
 #Source Code + Executables
 
