@@ -5,7 +5,7 @@ Grafische Tool um das Programmieren zu erlernen. Ein Blick in die [Präsentation
 
 #Wichtiger Hinweis
 
-Mac OS X wird im moment nicht unterstützt. (P.S. es würde gehn, wenn es ohne die Install-Procedure durchführt, ist aber im Moment nicht implementiert)
+Mac OS X wird im moment nicht unterstützt (Windows, Linux). (P.S. es würde gehn, wenn es ohne die Install-Procedure durchführt, ist aber im Moment nicht implementiert)
 
 #Source Code + Executables
 
